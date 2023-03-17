@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto/Roboto-Regular.ttf");
+}
+
+.dropdown {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.dropdown-search {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.dropdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 25%;
+    gap: 10px;
+}
+
+.dropdown input {
+    border-radius: 5px;
+    width: 75%;
+    font-size: 28px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    align-self: center;
+    padding: 10px;
+}
+.dropdown p {
+    font-size: 20px;
+    text-align: right;
+}
+
+.dropdown-content {
+    font-size: 16px;
+    line-height: 35px;
+    border: 2px solid #606060;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    flex: 1 1 24%;
+}
+
+.dropdown-content:hover {
+    background-color: #65CDF9;
+}
+
+.dropdown-container ul {
+    list-style: none;
+    padding: 10px;
+}
+a:link {
+    text-decoration: none;
+}
